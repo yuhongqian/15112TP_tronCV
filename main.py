@@ -1,64 +1,140 @@
-import Draw
-import cv2
-import numpy as np
-import pygame
-from pygame.locals import *
-import sys
+from tkinter import *
+from Constants import *
+from Player import *
+from Scene import *
+import random, cv2
+import cvControl
+from cvControl import cvWebcam
+from Game import *
+START_OPTIONS = OptionList([Option("Single Player", selected = True,
+                color = "red"),
+                Option("Multiple Players")])
+SINGLE_OPTIONS = OptionList( [Option("Play With Computer", selected = True,
+                color = "red"),
+                Option("Adventure Mode")] )
 
-# init opencv
-cap = cv2.VideoCapture(0)
-shape = Draw.getFrame(cap).shape
+# The Animation Skeleton is from 15-112 course website
+# https://www.cs.cmu.edu/~112/syllabus.html
 
-canvas = Draw.makeWhiteCanvas(shape)
-# the points that the pen touched
-points = []
+def init(data):
+    data.game = Game()
+    data.game.playMusic()
 
-# init pygame
-pygame.init()
-pygame.display.set_caption("openCV App")
-screen = pygame.display.set_mode( (shape[1], shape[0]) )
+def timerFired(data):
+    # print(type(data.game))
+    if data.game.screen in MODES and data.game.playing: # and data.game.started:
+        data.game.webcam.updateWebcam()
+        if data.game.control == "cv":
+            controlHumanPlayers(data.game.players, data.game.numHumans)
+        if Game.mode == "Single Player":
+            controlComputerPlayer(data.game.computerPlayer)
+            data.game.computerPlayer.counter -= 1
+        data.game.movePlayers()
+        data.game.checkStatus()
 
-try:
-    while True:
-        frame =Draw.getFrame(cap)
-        red = (0, 0, 255)
-        lineweight = 3
-        #currFrame = frame
-        #prevMask = getBlueArea(prevFrame)
-       # prevRect = getRect(prevMask)
-        mask = Draw.getBlueArea(frame)
-        rect = Draw.getRect(mask, frame)
-        if len(rect) > 0:
-            centerPoint = Draw.getCenter(rect)
-            points.append(centerPoint)
-            Draw.drawOnCanvas(canvas, points, lineweight)
+def mousePressed(event,data):
+    pass
 
-        # show pygame window
-        screen.fill([0,0,0])
-        pyframe = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-        # Rotate and flip the frame to create mirror effect
-        pyframe = cv2.flip(pyframe, 1)
-        pyframe = np.rot90(pyframe)
-        pyframe = pygame.surfarray.make_surface(pyframe)
-        screen.blit(pyframe, (0,0))
-        pygame.display.update()
+def keyPressed(event, data):
+     # control the human player
+    if data.game.screen == "init":
+        selectOptions(event, data, START_OPTIONS)
+        if Game.mode == "Multiple Players":
+            data.game = Game(screen = Game.mode, numHumans = 2)
+        elif data.game.screen == "Single Player":
+            data.game = GameWithComputer(screen = Game.mode)
+            data.game.playing = True
+    elif data.game.screen == "Multiple Players" and data.game.playing == False:
+        # print("this is the screen," , data.game.numHumans)
+        if event.keysym == "Down" and data.game.numHumans ==3:
+            data.game.numHumans -= 1
+            data.game.__init__(screen = "Multiple Players",
+                                numHumans = data.game.numHumans)
+        elif event.keysym == "Up" and data.game.numHumans == 2:
+            data.game.numHumans += 1
+            data.game.__init__(screen = "Multiple Players",
+                                numHumans = data.game.numHumans)
+        elif event.keysym == "space":
+            # print("pressed")
+            data.game.playing = True
+    elif data.game.screen == "lose" or data.game.screen == "result":
+        # print("this screen")
+        if event.keysym == "space":
+            # print("init here")
+            init(data)
+    if data.game.playing and data.game.control == "keyboard":
+        keyBoardControl(event, data.game)
+    pass
 
-        displayFrame = Draw.drawOnFrame(canvas, frame)
+def drawGame(canvas, data):
+    drawGameScreen(canvas, data)
+    for player in data.game.activePlayers:
+        player.drawRoute(canvas)
+        player.drawDot(canvas)
 
-        # opencv Display
-        cv2.imshow("drawing", canvas )
-        cv2.imshow("original", displayFrame)
-        cv2.imshow("masked", mask)
+def redrawAll(canvas, data):
+    # print(data.game.screen)
+    # print(data.game.playing)
+    cv2.imshow("currFrame", data.game.webcam.copiedFrame)
+    if data.game.screen == "init":
+        drawStartScreen(canvas, START_OPTIONS, data)
+    elif data.game.screen == "Multiple Players" and data.game.playing == False:
+        drawMultiPlayerChoices(canvas, data)
 
-        for event in pygame.event.get():
-            if event.type == KEYDOWN:
-                sys.exit(0)
+    elif data.game.screen in MODES and data.game.playing: # and data.game.started:
+        drawGame(canvas, data)
+    elif data.game.screen == "lose":
+        drawGame(canvas, data)
+        drawLose(canvas)
+    elif data.game.screen == "result":
+        drawGame(canvas, data)
+        drawWin(canvas, data.game)
+    pass
 
-except(KeyboardInterrupt, SystemExit):
-    pygame.quit()
-    cv2.destroyAllWindows()
-    cv2.waitKey(1)
+####################################
+# use the run function as-is
+####################################
 
+def run(width=300, height=300):
+    root = Tk()
+    def redrawAllWrapper(canvas, data):
+        canvas.delete(ALL)
+        canvas.create_rectangle(0, 0, data.width, data.height,
+                                fill='white', width=0)
+        redrawAll(canvas, data)
+        canvas.update()
 
+    def mousePressedWrapper(event, canvas, data):
+        mousePressed(event, data)
+        redrawAllWrapper(canvas, data)
 
+    def keyPressedWrapper(event, canvas, data):
+        keyPressed(event, data)
+        redrawAllWrapper(canvas,data)
 
+    def timerFiredWrapper(canvas, data):
+        timerFired(data)
+        redrawAllWrapper(canvas, data)
+        # pause, then call timerFired again
+        canvas.after(data.timerDelay, timerFiredWrapper, canvas, data)
+    # Set up data and call init
+    class Struct(object): pass
+    data = Struct()
+    data.width = width
+    data.height = height
+    data.timerDelay = 100 # milliseconds
+    init(data)
+    # create the root and the canvas
+    canvas = Canvas(root, width=data.width, height=data.height)
+    canvas.pack()
+    # set up events
+    root.bind("<Button-1>", lambda event:
+                            mousePressedWrapper(event, canvas, data))
+    root.bind("<Key>", lambda event:
+                            keyPressedWrapper(event, canvas, data))
+    timerFiredWrapper(canvas, data)
+    # and launch the appf
+    root.mainloop()  # blocks until window is closed
+    print("bye!")
+
+run(WIN_WIDTH, WIN_HEIGHT)

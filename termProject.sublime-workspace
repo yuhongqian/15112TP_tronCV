@@ -1,0 +1,1141 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"control",
+				"CONTROLS\tstatement"
+			],
+			[
+				"color",
+				"COLORS\tstatement"
+			],
+			[
+				"CONTROL",
+				"CONTROL_2"
+			],
+			[
+				"s",
+				"screen"
+			],
+			[
+				"drawoption",
+				"drawOptionScreen\tfunction"
+			],
+			[
+				"single",
+				"drawSinglePlayerChoices"
+			],
+			[
+				"start",
+				"startScreen"
+			],
+			[
+				"windw",
+				"WIN_WIDTH\tstatement"
+			],
+			[
+				"win_",
+				"WIN_WIDTH\tstatement"
+			],
+			[
+				"mode",
+				"MODES\tstatement"
+			],
+			[
+				"Game",
+				"GameWithComputer\tclass"
+			],
+			[
+				"draw",
+				"drawArrows\tfunction"
+			],
+			[
+				"num",
+				"NUM_COLORS\tstatement"
+			],
+			[
+				"circ",
+				"circleR\tstatement"
+			],
+			[
+				"curr",
+				"currCenter"
+			],
+			[
+				"alpha",
+				"alphaFrame\tstatement"
+			],
+			[
+				"aror",
+				"arrowImg\tparam"
+			],
+			[
+				"bitw",
+				"bitwise_not"
+			],
+			[
+				"thres",
+				"THRESH_BINARY"
+			],
+			[
+				"imread",
+				"IMREAD_UNCHANGED"
+			],
+			[
+				"arrow",
+				"arrowSize\tstatement"
+			],
+			[
+				"roi",
+				"roiWidth\tstatement"
+			],
+			[
+				"WIN",
+				"WIN_HEIGHT\tstatement"
+			],
+			[
+				"contro",
+				"CONTROL_1\tstatement"
+			],
+			[
+				"R",
+				"RIGHT_2"
+			],
+			[
+				"LE",
+				"LEFT_2"
+			],
+			[
+				"DOWN",
+				"DOWN_2"
+			],
+			[
+				"UP",
+				"UP_2"
+			],
+			[
+				"RIGH",
+				"RIGHT_1"
+			],
+			[
+				"i",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"upda",
+				"updateWebcam\tfunction"
+			],
+			[
+				"singl",
+				"SINGLE_OPTIONS\tstatement"
+			],
+			[
+				"cv",
+				"cvWebcam\tclass"
+			],
+			[
+				"masked",
+				"maskedFrame\tstatement"
+			],
+			[
+				"sce",
+				"Scene\tmodule"
+			],
+			[
+				"near",
+				"nearestRowTouched\tstatement"
+			],
+			[
+				"neare",
+				"nearestColTouched\tstatement"
+			],
+			[
+				"ner",
+				"nearestRowTouched\tstatement"
+			],
+			[
+				"human",
+				"humanPlayer"
+			],
+			[
+				"margin",
+				"MARGIN\tstatement"
+			],
+			[
+				"largest",
+				"largestCount"
+			],
+			[
+				"Drow",
+				"DROW_DCOL\tstatement"
+			],
+			[
+				"create_",
+				"create_text"
+			],
+			[
+				"board",
+				"boardCols\tstatement"
+			],
+			[
+				"generate",
+				"generateDir\tfunction"
+			],
+			[
+				"generat",
+				"generateDir\tfunction"
+			],
+			[
+				"wd",
+				"WIDTH"
+			],
+			[
+				"cell",
+				"cellSize"
+			],
+			[
+				"WIDT",
+				"WIN_WIDTH\tstatement"
+			],
+			[
+				"win",
+				"WIN_WIDTH\tstatement"
+			],
+			[
+				"screen",
+				"SCREEN_HEIGHT\tstatement"
+			],
+			[
+				"song",
+				"songName\tstatement"
+			],
+			[
+				"dispa",
+				"displayFrame\tstatement"
+			],
+			[
+				"drawo",
+				"drawOnFrame\tfunction"
+			],
+			[
+				"gray",
+				"grayCanvas\tstatement"
+			],
+			[
+				"prevr",
+				"prevRightBottomPt\tstatement"
+			],
+			[
+				"currr",
+				"currRightBottomPt\tstatement"
+			],
+			[
+				"mas",
+				"maskedImg\tparam"
+			],
+			[
+				"re",
+				"reparentTo"
+			],
+			[
+				"tracktage",
+				"trackingTargets\tstatement"
+			],
+			[
+				"mat",
+				"matches"
+			],
+			[
+				"featu",
+				"featureMatcher\tstatement"
+			],
+			[
+				"cur",
+				"curKeypoints\tstatement"
+			],
+			[
+				"det",
+				"detectFeatures"
+			],
+			[
+				"trak",
+				"trackingTargets\tstatement"
+			],
+			[
+				"desc",
+				"descriptors\tstatement"
+			],
+			[
+				"kyepo",
+				"keypoints\tstatement"
+			],
+			[
+				"keypoitn",
+				"keypoints\tstatement"
+			],
+			[
+				"imgr",
+				"imgRightLines\tstatement"
+			],
+			[
+				"imgl",
+				"imgLeftLines\tstatement"
+			],
+			[
+				"ptsRigh",
+				"ptsRightImg\tstatement"
+			],
+			[
+				"ptsLeft",
+				"ptsLeftImg\tstatement"
+			],
+			[
+				"ptsle",
+				"ptsLeftImg\tstatement"
+			],
+			[
+				"ptsl",
+				"ptsLeftImg\tstatement"
+			],
+			[
+				"ptsr",
+				"ptsRightImg\tstatement"
+			],
+			[
+				"feature",
+				"featureType\tparam"
+			],
+			[
+				"feat",
+				"featurePoints\tstatement"
+			],
+			[
+				"numf",
+				"numFramesJump\tstatement"
+			],
+			[
+				"trackingp",
+				"trackingPaths\tstatement"
+			],
+			[
+				"trakingP",
+				"trackingPaths\tstatement"
+			],
+			[
+				"good",
+				"goodPointsFlag\tstatement"
+			],
+			[
+				"featurepoint",
+				"featurePoints1\tstatement"
+			],
+			[
+				"diff",
+				"diffFeaturePoints\tstatement"
+			],
+			[
+				"Object",
+				"ObjectTracker\tclass"
+			],
+			[
+				"rect",
+				"rectFinal"
+			],
+			[
+				"solidity",
+				"solidity"
+			],
+			[
+				"solidyt",
+				"solidityValues\tstatement"
+			],
+			[
+				"inp",
+				"inputContours"
+			],
+			[
+				"imgo",
+				"imgOutput\tstatement"
+			],
+			[
+				"computeE",
+				"computeEnergyMatrix\tfunction"
+			],
+			[
+				"img",
+				"imgExtended\tstatement"
+			],
+			[
+				"abss",
+				"absSobelY\tstatement"
+			],
+			[
+				"top",
+				"topLeftPt\tstatement"
+			],
+			[
+				"min",
+				"minMatchCount\tstatement"
+			],
+			[
+				"des",
+				"descriptors2\tstatement"
+			],
+			[
+				"keypoin",
+				"keypoints2\tstatement"
+			],
+			[
+				"keyp",
+				"keypoints2\tstatement"
+			],
+			[
+				"de",
+				"detect"
+			],
+			[
+				"imgK",
+				"imgKeypointsWithoutNonmax\tstatement"
+			],
+			[
+				"face",
+				"faceCascade\tstatement"
+			],
+			[
+				"Ar",
+				"ArgumentParser\tclass"
+			],
+			[
+				"outpu",
+				"output2\tstatement"
+			],
+			[
+				"kernel",
+				"kernelIdentity\tstatement"
+			],
+			[
+				"float",
+				"float32"
+			],
+			[
+				"tranls",
+				"translationMatrix"
+			],
+			[
+				"imgtranslat",
+				"imgTranslation3\tstatement"
+			],
+			[
+				"imgtran",
+				"imgTranslation2\tstatement"
+			],
+			[
+				"translation",
+				"translationMatrix\tstatement"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Player.py",
+			"settings":
+			{
+				"buffer_size": 12419,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Game.py",
+			"settings":
+			{
+				"buffer_size": 4262,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Scene.py",
+			"settings":
+			{
+				"buffer_size": 5179,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "main2.py",
+			"settings":
+			{
+				"buffer_size": 5318,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Constants.py",
+			"settings":
+			{
+				"buffer_size": 715,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cvControl.py",
+			"settings":
+			{
+				"buffer_size": 5880,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 29.0,
+		"last_filter": "Package Control: ins",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Hongqian/Desktop/termProject"
+	],
+	"file_history":
+	[
+		"/Users/Hongqian/Desktop/termProject/main2.py",
+		"/Users/Hongqian/Desktop/termProject/cvControl.py",
+		"/Users/Hongqian/Desktop/termProject/Documentations/readme.txt",
+		"/Users/Hongqian/Desktop/termProject/Documentations/Update2",
+		"/Users/Hongqian/Desktop/termProject/main.py",
+		"/Users/Hongqian/Desktop/termProject/Scene.py",
+		"/Users/Hongqian/Desktop/termProject/images/down.jpg",
+		"/Users/Hongqian/Desktop/termProject/Game.py",
+		"/Users/Hongqian/Desktop/termProject/Constants.py",
+		"/Users/Hongqian/Desktop/termProject/main2.py ",
+		"/Users/Hongqian/Desktop/tkTutorial/label2.py",
+		"/Users/Hongqian/Desktop/tkTutorial/Calculator.py",
+		"/Users/Hongqian/Desktop/tkTutorial/label.py",
+		"/Users/Hongqian/Desktop/termProject/Player.py",
+		"/Users/Hongqian/Desktop/termProject/test.py",
+		"/Users/Hongqian/Desktop/termProject/whatsthis.py",
+		"/Users/Hongqian/Desktop/termProject/untitled.py",
+		"/Users/Hongqian/Desktop/termProject/gameScreen.py",
+		"/Users/Hongqian/Desktop/termProject/startScreen.py",
+		"/Users/Hongqian/Desktop/termProject/StartScreen",
+		"/Users/Hongqian/Desktop/termProject/Constants",
+		"/Users/Hongqian/Downloads/termProject/src/Input.py",
+		"/Users/Hongqian/Downloads/termProject/src/Song.py",
+		"/Users/Hongqian/Downloads/termProject/src/DanceCV.py",
+		"/Users/Hongqian/Downloads/termProject/src/Resource.py",
+		"/Users/Hongqian/Downloads/termProject/src/Constants.py",
+		"/Users/Hongqian/Downloads/DanceCV-master/src/DanceCV.py",
+		"/Users/Hongqian/Downloads/DanceCV-master/src/midi/MidiFileParser.py",
+		"/Users/Hongqian/Downloads/DanceCV-master/src/midi/MidiInFile.py",
+		"/Users/Hongqian/Downloads/DanceCV-master/src/Scene.py",
+		"/Users/Hongqian/Downloads/DanceCV-master/src/Input.py",
+		"/Users/Hongqian/Downloads/DanceCV-master/src/Audio.py",
+		"/Users/Hongqian/Downloads/DanceCV-master/src/Song.py",
+		"/Users/Hongqian/Downloads/DanceCV-master/src/midi/RawInstreamFile.py",
+		"/Users/Hongqian/Downloads/DanceCV-master/src/midi/DataTypeConverters.py",
+		"/Users/Hongqian/Downloads/DanceCV-master/src/midi/EventDispatcher.py",
+		"/Users/Hongqian/Downloads/DanceCV-master/src/midi/MidiToText.py",
+		"/Users/Hongqian/Downloads/DanceCV-master/src/pyhiero/pygamefont.py",
+		"/Users/Hongqian/Downloads/DanceCV-master/src/midi/RawOutstreamFile.py",
+		"/Users/Hongqian/Downloads/DanceCV-master/src/midi/MidiOutFile.py",
+		"/Users/Hongqian/Downloads/DanceCV-master/src/midi/MidiInStream.py",
+		"/Users/Hongqian/Downloads/DanceCV-master/src/midi/__init__.py",
+		"/Users/Hongqian/Desktop/temp.py",
+		"/Users/Hongqian/Desktop/termProject/Draw.py",
+		"/Users/Hongqian/Desktop/pygameTutorial/main.py",
+		"/Users/Hongqian/Desktop/pygameTutorial/car.py",
+		"/Users/Hongqian/Desktop/termProject/UI.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter9/colorspace.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter9/interactive.py",
+		"/Users/Hongqian/Desktop/termProject/penDetector.py",
+		"/Users/Hongqian/Desktop/pandaTutorial/Chapter2_multiScene/multiScene/Application.py",
+		"/Users/Hongqian/Desktop/pandaTutorial/Chapter2_multiScene/multiScene/main.py",
+		"/Users/Hongqian/Desktop/pandaTutorial/Chapter2_multiScene/multiScene/pandaOpencv",
+		"/Users/Hongqian/Desktop/test.py",
+		"/Users/Hongqian/Desktop/pandaTutorial/Chapter2_sound/soundproject/main.py",
+		"/Developer/Panda3D/etc/Config.prc",
+		"/Users/Hongqian/Desktop/pandaTutorial/Chapter2_sound/soundproject/Application.py",
+		"/Users/Hongqian/Desktop/pandaTutorial/Chapter2/terrainProject/main.py",
+		"/Users/Hongqian/Desktop/pandaTutorial/Chapter2/terrainProject/Application.py",
+		"/Users/Hongqian/Desktop/pandaTutorial/Chapter1/project/main.py",
+		"/Users/Hongqian/Desktop/pandaTutorial/Chapter1/project/Application.py",
+		"/Users/Hongqian/Desktop/pandaTutorial/Chapter1/Application.py",
+		"/Users/Hongqian/Desktop/pandaTutorial/Chapter1/main.py",
+		"/Users/Hongqian/Desktop/pandaTutorial/pandaTutorial.py",
+		"/Users/Hongqian/Library/Application Support/Sublime Text 3/Packages/User/python-with-ui-options.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter11/3dMap.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter11/test.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter10/epipolar.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter10/classifier.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter10/dense.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter9/backgroundSub.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter9/featureTracking.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter9/frameDiff.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter8/watershed.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter8/segmentation.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter8/censor.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter8/pizza.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter8/imgMoment.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter7/removeObj.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter7/seamCarving.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/pygameTutorial/removeObj.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/pygameTutorial/test.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/pygameTutorial/dot.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter6/openCVPygame.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter6/matchKps.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/pygameTutorial/openCVPygame",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openGLTutorial/math.py",
+		"/Users/Hongqian/Desktop/tp1/pose_estimation.py",
+		"/Users/Hongqian/Desktop/tp1/test.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter5/paro.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter6/test.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter6/help.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter5/sift.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter5/ORB.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter5/BRIEF.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter6/matchKps",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter5/readme.txt",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter5/fast.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter5/cornerDetect.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter5/FAST.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter5/surf.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter4/pupilDetect.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter5/cornerDetect",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter4/faceDetect.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter4/pupilDetect",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter4/eyeDetector.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter4/test.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/Chapter4/test.p",
+		"/Users/Hongqian/Desktop/demo/face.py",
+		"/Users/Hongqian/Desktop/face.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/test.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/new.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/ebookTutorial3.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/featurePoints.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/webcam.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/effect.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/detection.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/ebookTutorial3",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial/ebookTutorial.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ebookTutorial.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/detection",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/chessboardTest.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/ojbectDetectWithHSV",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/drawOnChessboard.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/tutorialTest",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/calib3dTest.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/test.py",
+		"/Users/Hongqian/Desktop/CMU/F17/15112/openCVTutorial/morphological.py"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"print(direction:",
+			"keypress",
+			"data.game.nu",
+			"redraw",
+			"in modes and ",
+			"drawsinglep",
+			"largest",
+			"print(type",
+			"drawGameScreen",
+			"game.started",
+			"choice",
+			"print",
+			"controlcomputer",
+			"controlhumanplayer",
+			"pg",
+			"music_file",
+			"self.game.webcam",
+			"cv2.line",
+			"getrect",
+			"getcenter",
+			"oval",
+			"getcenter",
+			"roiwidth",
+			"self.game.players",
+			"self.players",
+			"players",
+			"game.players",
+			"cvwebcam",
+			"setcv",
+			"data.game.players",
+			"getbluearea",
+			"getblueareaa",
+			"getbluearea",
+			"getcenter",
+			"self.getcenter",
+			"controlhuman",
+			"player",
+			"cvcontrol.",
+			"cvwebcam",
+			"player.",
+			"scene.",
+			"cvwebcam",
+			"line",
+			"webcam",
+			"self.nump",
+			"canvas, game",
+			"mode",
+			"textboxes",
+			"from tkinter import *\nfrom Constants import *\nfrom Player import Player, ComputerPlayer\nimport Scene\nfrom Scene import Options\nimport random, cv2\nimport cvControl\nfrom cvControl import cvWebcam",
+			"textboxes",
+			"textBoxes",
+			"data.screen",
+			"self.route",
+			"isdead",
+			"4 37",
+			"\"E\"",
+			"\"W\"",
+			"\"S\"",
+			"\"N\"",
+			"player.board[self.row][self.col]",
+			"player.board",
+			"random"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"pygame",
+			"musicFile",
+			"optionList",
+			"options",
+			"E",
+			"W",
+			"S",
+			"N"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Player.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12419,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1059,
+								1059
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 707.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Game.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								380,
+								380
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 380.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Scene.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5179,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1013,
+								1013
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "main2.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5318,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2265,
+								2265
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 528.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Constants.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 715,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								713,
+								713
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 124.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "cvControl.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5880,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.59230204068,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 136.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 102.0
+	},
+	"pinned_build_system": "Packages/User/python3REPL.sublime-build",
+	"project": "termProject.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 199.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

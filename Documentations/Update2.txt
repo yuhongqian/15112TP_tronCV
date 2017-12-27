@@ -1,0 +1,35 @@
+Since the project has been changed entirely after TP2, this file is intenede to be a more detailed project description than readme.txt.
+
+Introduction:
+This project is a Tron game controlled by openCV.
+
+Features:
+
+1. Game Controling:
+
+    * OpenCV Control:
+        * Uses openCV to detect and track the blue rectangle. When the center of the rectangle touches an arrow, the player changes direction accrodingly.
+        * In a multi-player mode, the openCV frame is divided into several regions of interest (ROI), and the algorithm tracks all the ROIs so that all the players can control at the same time.
+
+2. Various Modes:
+
+    * Single Player:
+        In a single player mode, the human player plays the game with the AI.
+        * The AI can generate direction and steps in the direction randomly.
+        * The AI can avoid running into the wall and any route that any player has drawn.
+        * The AI crashes into something only when it has no other way to go.
+
+    * Multiple Player:
+        In a multiple player mode, the user can choose how many players will join the game. The game supports up to three players for better user experience (since all the players share one openCV controlling panel).
+        * If any player crashes into something, the player together with its drawn route will be removed from the screen.
+        * The remaining players continue the game until only one player left.
+
+3. UI:
+    All the UIs are drawn with tkinter and openCV, which involve low-level numpy array calculations and pixel-base image placement.
+
+4. Other Features:
+
+    * Background Music
+
+
+
